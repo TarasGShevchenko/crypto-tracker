@@ -1,6 +1,6 @@
 # Home page
 
-Open [https://test.ua](https://test.ua) to view it in the browser.
+### Open [https://main--endearing-licorice-773d71.netlify.app](https://main--endearing-licorice-773d71.netlify.app) to view it in the browser.
 
 # Getting Started
 
