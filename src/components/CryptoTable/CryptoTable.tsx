@@ -204,7 +204,7 @@ export const CryptoTable: FC = () => {
   )
 
   const changeHandle = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    setValue(event.currentTarget.value)
+    setValue(event.currentTarget.value.toLowerCase())
   }, [])
 
   const handleRow = useCallback(

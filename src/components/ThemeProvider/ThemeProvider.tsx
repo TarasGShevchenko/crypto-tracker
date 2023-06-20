@@ -61,7 +61,7 @@ export const ThemeSwitch: FC = () => {
   const handleChange = useCallback(() => {
     setTheme((oldTheme) => (oldTheme === 'light' ? 'dark' : 'light'))
   }, [setTheme])
-  console.log(theme)
+
   return (
     <IconButton sx={{ ml: 1 }} onClick={handleChange} color="inherit">
       {theme === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
